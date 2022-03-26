@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.Entities", "OkulOtomasyon.Entities\OkulOtomasyon.Entities.csproj", "{0673D8E0-7B72-475A-9419-F20D5419FD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.DataAccess", "OkulOtomasyon.DataAccess\OkulOtomasyon.DataAccess.csproj", "{4485D3F2-E0BE-4BC6-BA8D-0905C0B60A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.Business", "OkulOtomasyon.Business\OkulOtomasyon.Business.csproj", "{34A04F17-150B-4077-9E49-304403D6B412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.UI", "OkulOtomasyon.UI\OkulOtomasyon.UI.csproj", "{60A784E1-3C80-4F33-8122-BA9EABD22A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.MvcUI.Tests", "OkulOtomasyon.MvcUI.Tests\OkulOtomasyon.MvcUI.Tests.csproj", "{33F04D71-2AD3-45A6-9143-731F7FA2430F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OkulOtomasyon.WcfService", "OkulOtomasyon.WcfService\", "{06E2421C-2072-4931-8921-0C3574BF5CC5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{34A04F17-150B-4077-9E49-304403D6B412}|OkulOtomasyon.Business.dll;{4485D3F2-E0BE-4BC6-BA8D-0905C0B60A9E}|OkulOtomasyon.DataAccess.dll;{0673D8E0-7B72-475A-9419-F20D5419FD0F}|OkulOtomasyon.Entities.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50154"
+		Debug.AspNetCompiler.PhysicalPath = "OkulOtomasyon.WcfService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50154\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50154"
+		Release.AspNetCompiler.PhysicalPath = "OkulOtomasyon.WcfService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50154\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50154"
+		SlnRelativePath = "OkulOtomasyon.WcfService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.MvcWebUI", "OkulOtomasyon.MvcWebUI\OkulOtomasyon.MvcWebUI.csproj", "{A3EEB973-2FA5-4C47-8011-99185C816A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.WebApi", "OkulOtomasyon.WebApi\OkulOtomasyon.WebApi.csproj", "{272C7841-60A5-48AB-B393-E58E5E001238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyon.Core", "OkulOtomasyon.Core\OkulOtomasyon.Core.csproj", "{9B7D37A8-3B8E-46B7-BE08-F6365E9873CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0673D8E0-7B72-475A-9419-F20D5419FD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0673D8E0-7B72-475A-9419-F20D5419FD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0673D8E0-7B72-475A-9419-F20D5419FD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0673D8E0-7B72-475A-9419-F20D5419FD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4485D3F2-E0BE-4BC6-BA8D-0905C0B60A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4485D3F2-E0BE-4BC6-BA8D-0905C0B60A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4485D3F2-E0BE-4BC6-BA8D-0905C0B60A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4485D3F2-E0BE-4BC6-BA8D-0905C0B60A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A04F17-150B-4077-9E49-304403D6B412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A04F17-150B-4077-9E49-304403D6B412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A04F17-150B-4077-9E49-304403D6B412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A04F17-150B-4077-9E49-304403D6B412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A784E1-3C80-4F33-8122-BA9EABD22A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A784E1-3C80-4F33-8122-BA9EABD22A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A784E1-3C80-4F33-8122-BA9EABD22A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A784E1-3C80-4F33-8122-BA9EABD22A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F04D71-2AD3-45A6-9143-731F7FA2430F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F04D71-2AD3-45A6-9143-731F7FA2430F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F04D71-2AD3-45A6-9143-731F7FA2430F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F04D71-2AD3-45A6-9143-731F7FA2430F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E2421C-2072-4931-8921-0C3574BF5CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E2421C-2072-4931-8921-0C3574BF5CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E2421C-2072-4931-8921-0C3574BF5CC5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E2421C-2072-4931-8921-0C3574BF5CC5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A3EEB973-2FA5-4C47-8011-99185C816A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EEB973-2FA5-4C47-8011-99185C816A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EEB973-2FA5-4C47-8011-99185C816A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EEB973-2FA5-4C47-8011-99185C816A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272C7841-60A5-48AB-B393-E58E5E001238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272C7841-60A5-48AB-B393-E58E5E001238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272C7841-60A5-48AB-B393-E58E5E001238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272C7841-60A5-48AB-B393-E58E5E001238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7D37A8-3B8E-46B7-BE08-F6365E9873CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7D37A8-3B8E-46B7-BE08-F6365E9873CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7D37A8-3B8E-46B7-BE08-F6365E9873CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7D37A8-3B8E-46B7-BE08-F6365E9873CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E56CD232-956F-40DC-8BF6-558A2C51599E}
+	EndGlobalSection
+EndGlobal
